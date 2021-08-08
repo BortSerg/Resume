@@ -31,28 +31,33 @@ body {
   filter: drop-shadow(0px 4px 4px #a09f9f);
 }
 /*============project section===============*/
-.my_projects_section {
+.my_projects_section,
+.my_courses_section {
   margin-bottom: 50px;
 }
-.projects {
+.projects,
+.courses {
   font-size: 22px;
   font-weight: 700;
   font-style: normal;
   line-height: 26.82px;
 }
 
-.projects_list {
+.projects_list,
+.courses_list {
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
   line-height: 14px;
 }
-.projects_item {
+.projects_item,
+.courses_item {
   font-weight: 700;
   padding: 5px;
   font-size: 14px;
 }
-.projects_text {
+.projects_text,
+.courses_text {
   font-size: 14px;
   font-weight: 400;
   color: grey;
@@ -98,6 +103,12 @@ body {
 }
 
 .job_responsibilities,
+.projects_list,
+.courses_list {
+  padding-left: 17px;
+  margin-top: 0px;
+  text-align: left;
+}
 .projects_list {
   padding-left: 17px;
   margin-top: 0px;

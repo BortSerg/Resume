@@ -18,7 +18,7 @@ body {
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
-  height: 1319px;
+  height: 1450px;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
@@ -168,6 +168,7 @@ body {
 /*===========sidebar_section=============================*/
 .sidebar_section {
   background-color: #1e2939;
+  width: 400px;
 }
 
 .sidebar_section span {
@@ -178,6 +179,7 @@ body {
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
+  
 }
 
 .sidebar_data_section {
@@ -219,7 +221,8 @@ body {
 }
 
 .tech_skils_section,
-.soft_skils_section {
+.soft_skils_section,
+.software_section {
   padding-left: 40px;
   margin-top: 47px;
 }
